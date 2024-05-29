@@ -74,4 +74,5 @@ export const faqDataList = [
     title: "What are the benefits of regular exercise?",
     desc: "Regular exercise can improve cardiovascular health, strengthen muscles, enhance flexibility, boost mental health, and help with weight management.",
   },
+  
 ];

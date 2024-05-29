@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
@@ -9,7 +10,7 @@ const FAQ = ({ id, title, desc }) => {
   return (
     <article className={style.container}>
       <div className={style.box}>
-        <h3>{title}</h3>
+        <h3>Q: {title}</h3>
         <button className={style.btn} onClick={() => setTogole(!togole)}>
           {togole ? "-" : "+"}
         </button>
